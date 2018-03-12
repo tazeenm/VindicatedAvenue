@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wordpress.keerthanasriranga.locations.MainActivity">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/rateitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Rate it!"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_above="@+id/ratingBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp" />
+
+    <Button
+        android:id="@+id/rateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cast_expanded_controller_actionbar_bg_gradient_light"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="doneRating"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/cast_expanded_controller_bg_gradient_light"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="getRating"
+        android:text="Select a place"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/search_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="View Ratings"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/navigate"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/streetview"
+        android:layout_alignBottom="@+id/streetview"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/rateitText"
+        android:layout_toRightOf="@+id/rateitText"
+        android:background="@drawable/cast_expanded_controller_actionbar_bg_gradient_light"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="navigate"
+        android:text="Navigate"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white" />
+
+    <Button
+        android:id="@+id/streetview"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="43dp"
+        android:layout_toStartOf="@+id/rateitText"
+        android:background="@drawable/cast_expanded_controller_actionbar_bg_gradient_light"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="getStreetView"
+        android:text="Street" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textview"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+
+            android:layout_weight="0.35"
+            android:text="Select A Place"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            tools:textColor="#ffffff" />
+    </LinearLayout>
+
+
+</RelativeLayout>

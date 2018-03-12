@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VindicatedAvenue.iml" filepath="$PROJECT_DIR$/VindicatedAvenue.iml" />
+      <module fileurl="file://C:\Users\Tazeen Munnavar\AndroidStudioProjects\VindicatedAvenue\VindicatedAvenue1.iml" filepath="C:\Users\Tazeen Munnavar\AndroidStudioProjects\VindicatedAvenue\VindicatedAvenue1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Tazeen Munnavar\AndroidStudioProjects\VindicatedAvenue\app\app.iml" filepath="C:\Users\Tazeen Munnavar\AndroidStudioProjects\VindicatedAvenue\app\app.iml" />
+    </modules>
+  </component>
+</project>

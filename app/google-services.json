@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "715094852362",
+    "firebase_url": "https://vindicatedavenue-167510.firebaseio.com",
+    "project_id": "vindicatedavenue-167510",
+    "storage_bucket": "vindicatedavenue-167510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715094852362:android:5cd5136531fdc9ea",
+        "android_client_info": {
+          "package_name": "com.wordpress.keerthanasriranga.locations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715094852362-j71ru8vghdo4e63c7d3j2h6nptlfshi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-MwLnmF0V07EyBNrP7wf1M3DUFXXmyis"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
